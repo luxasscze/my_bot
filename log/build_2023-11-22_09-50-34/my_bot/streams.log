@@ -1,0 +1,66 @@
+[0.126s] Invoking command in '/home/lukas/ROBOT_CORE/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/lukas/ROBOT_CORE/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lukas/ROBOT_CORE/my_bot/install/my_bot
+[0.407s] -- The C compiler identification is GNU 9.4.0
+[0.622s] -- The CXX compiler identification is GNU 9.4.0
+[0.636s] -- Check for working C compiler: /usr/bin/cc
+[0.730s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.734s] -- Detecting C compiler ABI info
+[0.836s] -- Detecting C compiler ABI info - done
+[0.847s] -- Detecting C compile features
+[0.849s] -- Detecting C compile features - done
+[0.854s] -- Check for working CXX compiler: /usr/bin/c++
+[0.947s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.947s] -- Detecting CXX compiler ABI info
+[1.039s] -- Detecting CXX compiler ABI info - done
+[1.049s] -- Detecting CXX compile features
+[1.050s] -- Detecting CXX compile features - done
+[1.058s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.100s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.101s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.250s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.308s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.402s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.429s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.430s] -- Configured cppcheck include dirs: 
+[1.430s] -- Configured cppcheck exclude dirs and/or files: 
+[1.439s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.439s] -- Configured cpplint exclude dirs and/or files: 
+[1.442s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.445s] -- Added test 'lint_cmake' to check CMake code style
+[1.448s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.458s] -- Added test 'uncrustify' to check C / C++ code style
+[1.458s] -- Configured uncrustify additional arguments: 
+[1.461s] -- Added test 'xmllint' to check XML markup files
+[1.464s] -- Configuring done
+[1.466s] -- Generating done
+[1.468s] -- Build files have been written to: /home/lukas/ROBOT_CORE/my_bot/build/my_bot
+[1.476s] Invoked command in '/home/lukas/ROBOT_CORE/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/lukas/ROBOT_CORE/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lukas/ROBOT_CORE/my_bot/install/my_bot
+[1.477s] Invoking command in '/home/lukas/ROBOT_CORE/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lukas/ROBOT_CORE/my_bot/build/my_bot -- -j4 -l4
+[1.520s] Invoked command in '/home/lukas/ROBOT_CORE/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lukas/ROBOT_CORE/my_bot/build/my_bot -- -j4 -l4
+[1.565s] Invoking command in '/home/lukas/ROBOT_CORE/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/lukas/ROBOT_CORE/my_bot/build/my_bot
+[1.576s] -- Install configuration: ""
+[1.576s] -- Execute custom install script
+[1.577s] -- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/config/empty.yaml
+[1.588s] -- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/description/colors.xacro
+[1.600s] -- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[1.609s] -- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/description/inertia_macros.xacro
+[1.618s] -- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[1.627s] -- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/description/robot_core.xacro
+[1.637s] -- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[1.646s] -- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/launch/rsp.launch.py
+[1.656s] -- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/worlds/empty.world
+[1.667s] -- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[1.676s] -- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[1.690s] -- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[1.701s] -- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[1.710s] -- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/environment/path.sh
+[1.719s] -- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/environment/path.dsv
+[1.729s] -- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/local_setup.bash
+[1.737s] -- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/local_setup.sh
+[1.746s] -- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/local_setup.zsh
+[1.754s] -- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/local_setup.dsv
+[1.766s] -- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/package.dsv
+[1.778s] -- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[1.791s] -- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[1.800s] -- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[1.810s] -- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/package.xml
+[1.820s] Invoked command in '/home/lukas/ROBOT_CORE/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/lukas/ROBOT_CORE/my_bot/build/my_bot
