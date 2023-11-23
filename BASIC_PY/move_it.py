@@ -9,7 +9,7 @@ MAIN_TM = 1
 TM_BETWEEN = 1
 
 def speak(text):
-    p = Popen(['espeak', text, '-ven+f2', '-a 200', '-p 30', '-s 150', '-g 2'])
+    p = Popen(['espeak', text, '-ven+f2', '-a 200', '-p 30', '-s 15', '-g 2'])
 
 
 def move_stop():
