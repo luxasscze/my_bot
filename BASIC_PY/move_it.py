@@ -8,19 +8,32 @@ MAIN_DUTY = 20
 MAIN_TM = 1
 TM_BETWEEN = 1
 
-quotes = ["Today I was born.", 
-          "Lukas gaves me life.", 
+quotes = ["Today I was born.",
+          "...", 
+          "Lukas gaves me life.",
+          "...", 
           "I have freedom to move.",
+          "...",
           "Move away, I am passing by.",
+          "...",
           "Excuse me, where is the bathroom?",
+          "...",
           "Have you seen Ali?",
+          "...",
           "Let's talk something serious.",
+          "...",
           "My power is running low.",
+          "...",
           "I need to hide somewhere.",
+          "...",
           "Do you need my assistance?",
+          "...",
           "What is there?",
+          "...",
           "Do you like how I look like?",
-          "Hello, my name is Bob!"]
+          "...",
+          "Hello, my name is Bob!",
+          "..."]
 
 def speak(text):
     p = Popen(['espeak', text, '-ven+m2', '-a 200', '-p 50', '-s 150', '-g 2'])
