@@ -10,6 +10,7 @@ TM_BETWEEN = 1
 
 def speak(text):
     p = Popen(['espeak', text])
+    p.args('-ven+f2 -a 200 -p 30 -s 150 -g 2')
 
 def move_stop():
     right_forward.ChangeDutyCycle(0)
