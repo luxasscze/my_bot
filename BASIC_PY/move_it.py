@@ -1,6 +1,10 @@
 import time
 import RPi.GPIO as GPIO
 
+MAIN_DUTY = 45
+MAIN_TM = 1
+TM_BETWEEN = 1
+
 def move_stop():
     right_forward.ChangeDutyCycle(0)
     right_backward.ChangeDutyCycle(0)
@@ -57,17 +61,17 @@ print("MOVING ROBOT...")
 try:
     while 1:
         print("move forward...")
-        move_forward(90, 1)
-        time.sleep(1)
+        move_forward(MAIN_DUTY, MAIN_TM)
+        time.sleep(TM_BETWEEN)
         print("move backward...")
-        move_backward(90, 1)
-        time.sleep(1)
+        move_backward(MAIN_DUTY, MAIN_TM)
+        time.sleep(TM_BETWEEN)
         print("spin left...")
-        spin_left(90, 1)
-        time.sleep(1)
+        spin_left(MAIN_DUTY, MAIN_TM)
+        time.sleep(TM_BETWEEN)
         print("spin right...")
-        spin_right(90, 1)
-        time.sleep(1)
+        spin_right(MAIN_DUTY, MAIN_TM)
+        time.sleep(TM_BETWEEN)
         
 except KeyboardInterrupt:
     pass
