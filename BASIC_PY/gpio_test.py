@@ -12,18 +12,24 @@ s = GPIO.PWM(32, 90)
 p.start(0)
 s.start(0)
 
+print("starting motor test")
+
 try:
     while 1:
         for dc in range(0, 101, 5):
+            print("phase A")
             s.ChangeDutyCycle(dc)
             time.sleep(1)
         for dc in range(100, -1, -5):
+            print("phase B")
             s.ChangeDutyCycle(dc)
             time.sleep(1)
         for dc in range(0, 101, 5):
+            print("phase C")
             p.ChangeDutyCycle(dc)
             time.sleep(1)
         for dc in range(100, -1, -5):
+            print("phase D")
             p.ChangeDutyCycle(dc)
             time.sleep(1)
 except KeyboardInterrupt:
