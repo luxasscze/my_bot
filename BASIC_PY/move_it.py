@@ -15,7 +15,12 @@ quotes = ["Today I was born.",
           "Excusme me, where is the bathroom?",
           "Have you seen Ali?",
           "Let's talk something serious.",
-          "My power is running down."]
+          "My power is running down.",
+          "I need to hide somewhere.",
+          "Do you need my assistance?",
+          "What is there?",
+          "Do you like how I look like?",
+          "Hello, my name is Bob!"]
 
 def speak(text):
     p = Popen(['espeak', text, '-ven+m2', '-a 200', '-p 50', '-s 150', '-g 2'])
