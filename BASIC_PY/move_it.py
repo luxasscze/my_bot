@@ -1,3 +1,4 @@
+import os
 import random
 import time
 import RPi.GPIO as GPIO
@@ -5,6 +6,9 @@ import RPi.GPIO as GPIO
 MAIN_DUTY = 20
 MAIN_TM = 1
 TM_BETWEEN = 1
+
+def speak(text):
+    os.system("espeak " + text)
 
 def move_stop():
     right_forward.ChangeDutyCycle(0)
@@ -85,7 +89,8 @@ print("MOVING ROBOT...")
 
 try:
     while 1:
-        program_one()
+        #program_one()
+        speak("this is shit")
         
 except KeyboardInterrupt:
     pass
