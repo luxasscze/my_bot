@@ -42,7 +42,7 @@ def spin_right(duty, tm):
 
 def program_one():
     rnd_duty = random.uniform(18, 35)
-    rnd_time = random.uniform(0.1, 1)
+    rnd_turn = random.uniform(0.1, 1.5)
     rnd_wait_end = 0.1
     print("move forward")
     move_forward(rnd_duty, random.uniform(0.1, 1.5))
@@ -51,7 +51,7 @@ def program_one():
     move_backward(rnd_duty, random.uniform(0.1, 1.5))
     time.sleep(random.uniform(0.1, rnd_wait_end))
     print("spin left with duty:" + str(rnd_duty))
-    spin_left(rnd_duty, random.uniform(0.1, 1))
+    spin_left(rnd_duty, rnd_turn)
     time.sleep(random.uniform(0.1, rnd_wait_end))
     print("move forward")
     move_forward(rnd_duty, random.uniform(0.1, 1.5))
@@ -60,7 +60,7 @@ def program_one():
     move_backward(rnd_duty, random.uniform(0.1, 1.5))
     time.sleep(random.uniform(0.1, rnd_wait_end))
     print("spin right with duty:" + str(rnd_duty))
-    spin_right(rnd_duty, random.uniform(0.1, 1))
+    spin_right(rnd_duty, rnd_turn)
     time.sleep(random.uniform(0.1, rnd_wait_end))
     print("---------------------")
 
