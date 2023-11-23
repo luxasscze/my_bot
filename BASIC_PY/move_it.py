@@ -8,6 +8,10 @@ MAIN_DUTY = 20
 MAIN_TM = 1
 TM_BETWEEN = 1
 
+quotes = ["Today is beautiful day", 
+          "What are we going to do today", 
+          "I wish"]
+
 def speak(text):
     p = Popen(['espeak', text, '-ven+m2', '-a 200', '-p 50', '-s 150', '-g 2'])
 
@@ -92,7 +96,7 @@ print("MOVING ROBOT...")
 try:
     while 1:
         program_one()
-        speak("Cycle finished")
+        speak(random.choice(quotes))
         
 except KeyboardInterrupt:
     pass
