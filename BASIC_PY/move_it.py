@@ -8,17 +8,17 @@ MAIN_DUTY = 20
 MAIN_TM = 1
 TM_BETWEEN = 1
 
-quotes = ["Today I was born.",
+quotes = ["Hello fellas.",
           "...", 
-          "Lukas gaves me life.",
+          "I want some smoke, do you have some?",
           "...", 
-          "I have freedom to move.",
+          "fuck off, let me pass",
           "...",
-          "Move away, I am passing by.",
+          "Hello Joe, how is life treating you?",
           "...",
-          "Excuse me, where is the bathroom?",
+          "Some smoke?",
           "...",
-          "Have you seen Ali?",
+          "do you need some money? fuck off!",
           "...",
           "Let's talk something serious.",
           "...",
@@ -28,11 +28,11 @@ quotes = ["Today I was born.",
           "...",
           "Do you need my assistance?",
           "...",
-          "What is there?",
+          "I wish to drink beer.",
           "...",
-          "Do you like how I look like?",
+          "Don't mess with me!",
           "...",
-          "Hello, my name is Bob!",
+          "I am the best smoking robot!",
           "..."]
 
 def speak(text):
