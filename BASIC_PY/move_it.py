@@ -1,3 +1,4 @@
+import random
 import time
 import RPi.GPIO as GPIO
 
@@ -40,6 +41,7 @@ def spin_right(duty, tm):
     left_forward.ChangeDutyCycle(0)
 
 def program_one():
+    rnd_duty = random.randint(20, 60)
     print("move forward")
     move_forward(MAIN_DUTY, MAIN_TM)
     time.sleep(TM_BETWEEN)
@@ -47,7 +49,7 @@ def program_one():
     move_backward(MAIN_DUTY, MAIN_TM)
     time.sleep(TM_BETWEEN)
     print("spin left")
-    spin_left(MAIN_DUTY, MAIN_TM)
+    spin_left(rnd_duty, MAIN_TM)
     time.sleep(TM_BETWEEN)
     print("move forward")
     move_forward(MAIN_DUTY, MAIN_TM)
@@ -56,7 +58,7 @@ def program_one():
     move_backward(MAIN_DUTY, MAIN_TM)
     time.sleep(TM_BETWEEN)
     print("spin right")
-    spin_right(MAIN_DUTY, 1)
+    spin_right(rnd_duty, MAIN_TM)
     time.sleep(TM_BETWEEN)
     print("---------------------")
 
