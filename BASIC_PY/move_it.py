@@ -1,7 +1,7 @@
 import time
 import RPi.GPIO as GPIO
 
-MAIN_DUTY = 45
+MAIN_DUTY = 25
 MAIN_TM = 1
 TM_BETWEEN = 1
 
@@ -41,6 +41,8 @@ def spin_right(duty, tm):
 
 def program_one():
     move_forward(MAIN_DUTY, 0.5)
+    time.sleep(MAIN_TM)
+    move_backward(MAIN_DUTY, 0.5)
 
 GPIO.setmode(GPIO.BOARD)
 
