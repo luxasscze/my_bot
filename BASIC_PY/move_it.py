@@ -7,31 +7,31 @@ def move_stop():
     left_forward.ChangeDutyCycle(0)
     left_backward.ChangeDutyCycle(0)
 
-def move_forward(duty, time):
+def move_forward(duty, tm):
     right_forward.ChangeDutyCycle(duty)
     left_forward.ChangeDutyCycle(duty)
-    time.sleep(time)
+    time.sleep(tm)
     right_forward.ChangeDutyCycle(0)
     left_forward.ChangeDutyCycle(0)
 
-def move_backward(duty, time):
+def move_backward(duty, tm):
     right_backward.ChangeDutyCycle(duty)
     left_backward.ChangeDutyCycle(duty)
-    time.sleep(time)
+    time.sleep(tm)
     right_backward.ChangeDutyCycle(0)
     left_backward.ChangeDutyCycle(0)
 
-def spin_left(duty, time):
+def spin_left(duty, tm):
     right_forward.ChangeDutyCycle(duty)
     left_backward.ChangeDutyCycle(duty)
-    time.sleep(time)
+    time.sleep(tm)
     right_forward.ChangeDutyCycle(0)
     left_backward.ChangeDutyCycle(0)
 
-def spin_right(duty, time):
+def spin_right(duty, tm):
     right_backward.ChangeDutyCycle(duty)
     left_forward.ChangeDutyCycle(duty)
-    time.sleep(time)
+    time.sleep(tm)
     right_backward.ChangeDutyCycle(0)
     left_forward.ChangeDutyCycle(0)
 
