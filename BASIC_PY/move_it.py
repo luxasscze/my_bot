@@ -56,12 +56,16 @@ print("MOVING ROBOT...")
 
 try:
     while 1:
+        print("move forward...")
         move_forward(90, 1)
         time.sleep(1)
+        print("move backward...")
         move_backward(90, 1)
         time.sleep(1)
+        print("spin left...")
         spin_left(90, 1)
         time.sleep(1)
+        print("spin right...")
         spin_right(90, 1)
         time.sleep(1)
         
