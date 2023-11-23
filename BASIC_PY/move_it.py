@@ -89,8 +89,8 @@ print("MOVING ROBOT...")
 
 try:
     while 1:
-        #program_one()
-        speak("this is shit")
+        program_one()
+        speak("Cycle finished")
         
 except KeyboardInterrupt:
     pass
