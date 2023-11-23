@@ -2,13 +2,15 @@ import os
 import random
 import time
 import RPi.GPIO as GPIO
+from subprocess import Popen
 
 MAIN_DUTY = 20
 MAIN_TM = 1
 TM_BETWEEN = 1
 
 def speak(text):
-    os.system("espeak " + text)
+    p = Popen("espeak " + text)
+    p.terminate()
 
 def move_stop():
     right_forward.ChangeDutyCycle(0)
