@@ -43,7 +43,7 @@ def spin_right(duty, tm):
 def program_one():
     rnd_duty = random.uniform(20, 60)
     rnd_time = random.uniform(0.1, 1)
-    rnd_wait_end = 2
+    rnd_wait_end = 0.1
     print("move forward")
     move_forward(rnd_duty, rnd_time)
     time.sleep(random.uniform(0.1, rnd_wait_end))
