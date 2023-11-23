@@ -8,9 +8,16 @@ MAIN_DUTY = 20
 MAIN_TM = 1
 TM_BETWEEN = 1
 
-quotes = ["Today is beautiful day", 
-          "What are we going to do today", 
-          "I wish"]
+quotes = ["We need to rent a room for our party.", 
+          "Art doesn't have to be intentional.", 
+          "The sight of his goatee made me want to run and hide under my sister-in-law's bed.",
+          "He embraced his new life as an eggplant.",
+          "Abstraction is often one floor above you.",
+          "Sometimes, all you need to do is completely make an ass of yourself and laugh it off to realise that life isn’t so bad after all.",
+          "Yeah, I think it's a good environment for learning English.",
+          "Iguanas were falling out of the trees.",
+          "The door swung open to reveal pink giraffes and red elephants.",
+          "The virus had powers none of us knew existed."]
 
 def speak(text):
     p = Popen(['espeak', text, '-ven+m2', '-a 200', '-p 50', '-s 150', '-g 2'])
