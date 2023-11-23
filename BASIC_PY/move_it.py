@@ -39,6 +39,9 @@ def spin_right(duty, tm):
     right_backward.ChangeDutyCycle(0)
     left_forward.ChangeDutyCycle(0)
 
+def program_one():
+    move_forward(MAIN_DUTY, 0.5)
+
 GPIO.setmode(GPIO.BOARD)
 
 GPIO.setup(12, GPIO.OUT)
@@ -60,18 +63,7 @@ print("MOVING ROBOT...")
 
 try:
     while 1:
-        print("move forward...")
-        move_forward(MAIN_DUTY, MAIN_TM)
-        time.sleep(TM_BETWEEN)
-        print("move backward...")
-        move_backward(MAIN_DUTY, MAIN_TM)
-        time.sleep(TM_BETWEEN)
-        print("spin left...")
-        spin_left(MAIN_DUTY, MAIN_TM)
-        time.sleep(TM_BETWEEN)
-        print("spin right...")
-        spin_right(MAIN_DUTY, MAIN_TM)
-        time.sleep(TM_BETWEEN)
+        program_one()
         
 except KeyboardInterrupt:
     pass
