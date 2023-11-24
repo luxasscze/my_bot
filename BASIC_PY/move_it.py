@@ -33,7 +33,7 @@ quotes = ["Shut you fuck up!",
           "Don't mess with me!",
           #"...",
           "My name is Johnny, now you can fuck off!",
-          "                                                        "]
+          "Something for a change!"]
           #"..."]
 
 def speak(text):
