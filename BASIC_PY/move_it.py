@@ -119,7 +119,7 @@ print("MOVING ROBOT...")
 try:
     while 1:
         program_one()
-        #speak(random.choice(quotes))
+        speak(random.choice(quotes))
         
 except KeyboardInterrupt:
     pass
