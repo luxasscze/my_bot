@@ -75,7 +75,7 @@ def spin_right(duty, tm):
     left_forward.ChangeDutyCycle(0)
 
 def program_one():
-    rnd_duty = random.uniform(89, 45)
+    rnd_duty = random.uniform(19, 45)
     rnd_turn = random.uniform(0.1, 1.5)
     rnd_wait_end = 0.1
     print("move forward")
