@@ -119,7 +119,7 @@ print("MOVING ROBOT...")
 
 try:
     while 1:
-        #program_one()
+        program_one()
         speak(random.choice(quotes))
         time.sleep(2)
         
