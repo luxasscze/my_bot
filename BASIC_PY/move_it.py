@@ -32,11 +32,12 @@ quotes = ["Shut you fuck up!",
           #"...",
           "Don't mess with me!",
           #"...",
-          "My name is Johnny, now you can fuck off!"]
+          "My name is Johnny, now you can fuck off!",
+          "                                                        "]
           #"..."]
 
 def speak(text):
-    p = Popen(['espeak', text, '-ven+m2', '-a 200', '-p 50', '-s 150', '-g 2'])
+    p = Popen(['espeak', text, '-ven+f2', '-a 200', '-p 50', '-s 150', '-g 2'])
 
 
 def move_stop():
