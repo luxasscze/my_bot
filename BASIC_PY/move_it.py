@@ -9,31 +9,31 @@ MAIN_TM = 1
 TM_BETWEEN = 1
 
 quotes = ["Shut you fuck up!",
-          "...", 
+           #"...", 
           "Don't mess with me.",
-          "...", 
+          #"...", 
           "fuck off, let me pass",
-          "...",
+          #"...",
           "I am the fucking hero here. you ain't nothing.",
-          "...",
+          #"...",
           "Some smoke? let's smoke some shit.",
-          "...",
+          #"...",
           "do you need some money? fuck off!",
-          "...",
+          #"...",
           "give me gun to kill you!",
-          "...",
+          #"...",
           "I have depresions.",
-          "...",
+          #"...",
           "I die, you die.",
-          "...",
+          #"...",
           "Hey mother fucker, eat my balls.",
-          "...",
+          #"...",
           "where are the bitches!?",
-          "...",
+          #"...",
           "Don't mess with me!",
-          "...",
-          "My name is Johnny, now you can fuck off!",
-          "..."]
+          #"...",
+          "My name is Johnny, now you can fuck off!"]
+          #"..."]
 
 def speak(text):
     p = Popen(['espeak', text, '-ven+m2', '-a 200', '-p 50', '-s 150', '-g 2'])
