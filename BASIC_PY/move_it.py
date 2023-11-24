@@ -121,7 +121,6 @@ try:
     while 1:
         program_one()
         speak(random.choice(quotes))
-        time.sleep(2)
         
 except KeyboardInterrupt:
     pass
