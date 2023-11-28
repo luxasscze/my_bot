@@ -1,0 +1,72 @@
+[2.985s] Invoking command in '/home/lukas/ROBOT_CORE/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lukas/ROBOT_CORE/my_bot/build/my_bot -- -j4 -l4
+[3.334s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.661s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.312s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.471s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[6.838s] CMake Warning at /opt/ros/foxy/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+[6.840s]   Package 'rcutils' exports library 'dl' which couldn't be found
+[6.842s] Call Stack (most recent call first):
+[6.844s]   /opt/ros/foxy/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+[6.845s]   /opt/ros/foxy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[6.847s]   /opt/ros/foxy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+[6.848s]   /opt/ros/foxy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[6.850s]   /opt/ros/foxy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[6.852s]   /opt/ros/foxy/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[6.853s]   /opt/ros/foxy/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)
+[6.855s]   /opt/ros/foxy/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[6.856s]   /opt/ros/foxy/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)
+[6.858s]   CMakeLists.txt:20 (find_package)
+[6.860s] 
+[6.861s] 
+[7.159s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.342s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.337s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[8.595s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.804s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.427s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[12.442s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.010s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.012s] -- Configured cppcheck include dirs: 
+[14.014s] -- Configured cppcheck exclude dirs and/or files: 
+[15.578s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[15.580s] -- Configured cpplint exclude dirs and/or files: 
+[15.778s] -- Added test 'flake8' to check Python code syntax and style conventions
+[16.173s] -- Added test 'lint_cmake' to check CMake code style
+[16.374s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[17.939s] -- Added test 'uncrustify' to check C / C++ code style
+[17.941s] -- Configured uncrustify additional arguments: 
+[18.140s] -- Added test 'xmllint' to check XML markup files
+[18.200s] -- Configuring done
+[18.242s] -- Generating done
+[18.268s] -- Build files have been written to: /home/lukas/ROBOT_CORE/my_bot/build/my_bot
+[18.534s] Invoked command in '/home/lukas/ROBOT_CORE/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lukas/ROBOT_CORE/my_bot/build/my_bot -- -j4 -l4
+[18.939s] Invoking command in '/home/lukas/ROBOT_CORE/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/lukas/ROBOT_CORE/my_bot/build/my_bot
+[19.050s] -- Install configuration: ""
+[19.057s] -- Execute custom install script
+[19.065s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/config/empty.yaml
+[19.068s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/config/joystick.yaml
+[19.077s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/description/colors.xacro
+[19.079s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[19.083s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/description/inertia_macros.xacro
+[19.087s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[19.090s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/description/robot_core.xacro
+[19.097s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/launch/joystick.launch.py
+[19.100s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[19.104s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/launch/rsp.launch.py
+[19.110s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/worlds/empty.world
+[19.116s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[19.123s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[19.128s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[19.133s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[19.138s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/environment/path.sh
+[19.144s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/environment/path.dsv
+[19.149s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/local_setup.bash
+[19.154s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/local_setup.sh
+[19.159s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/local_setup.zsh
+[19.164s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/local_setup.dsv
+[19.168s] -- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/package.dsv
+[19.280s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[19.285s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[19.289s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[19.293s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/package.xml
+[19.313s] Invoked command in '/home/lukas/ROBOT_CORE/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/lukas/ROBOT_CORE/my_bot/build/my_bot

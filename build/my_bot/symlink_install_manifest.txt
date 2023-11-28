@@ -1,9 +1,11 @@
 /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/config/empty.yaml
+/home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/config/joystick.yaml
 /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/description/colors.xacro
 /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/description/gazebo_control.xacro
 /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/description/inertia_macros.xacro
 /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/description/robot.urdf.xacro
 /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/description/robot_core.xacro
+/home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/launch/joystick.launch.py
 /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/launch/launch_sim.launch.py
 /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/launch/rsp.launch.py
 /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/worlds/empty.world

@@ -1,0 +1,55 @@
+[30.457s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'motor_ctrl']
+[30.458s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff7e9e3ac0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['motor_ctrl'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff7e9e3ac0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff7e594790>)
+[31.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[31.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[31.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[31.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[31.810s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[31.811s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[31.812s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lukas/ROBOT_CORE/my_bot'
+[31.813s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[31.815s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[31.816s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[31.816s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[31.817s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[31.818s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[31.818s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[31.819s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[31.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[32.026s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'my_bot'
+[32.026s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[32.028s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[32.028s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[32.029s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[32.029s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[32.558s] WARNING:colcon.colcon_core.package_selection:ignoring unknown package 'motor_ctrl' in --packages-select
+[33.924s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'my_bot' in '.'
+[34.961s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[34.961s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[36.024s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/lukas/ROBOT_CORE/my_bot/install
+[36.549s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/lukas/ROBOT_CORE/install
+[37.087s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 172 installed packages in /opt/ros/foxy
+[37.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[38.993s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[39.519s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[39.522s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[39.523s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[39.524s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[39.525s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[40.106s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[40.108s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[40.109s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[40.110s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[40.118s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[40.119s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[40.671s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[40.675s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lukas/ROBOT_CORE/my_bot/install/local_setup.ps1'
+[40.690s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lukas/ROBOT_CORE/my_bot/install/_local_setup_util_ps1.py'
+[40.714s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lukas/ROBOT_CORE/my_bot/install/setup.ps1'
+[41.260s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lukas/ROBOT_CORE/my_bot/install/local_setup.sh'
+[41.269s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lukas/ROBOT_CORE/my_bot/install/_local_setup_util_sh.py'
+[41.276s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lukas/ROBOT_CORE/my_bot/install/setup.sh'
+[41.817s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lukas/ROBOT_CORE/my_bot/install/local_setup.bash'
+[41.825s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lukas/ROBOT_CORE/my_bot/install/setup.bash'
+[42.480s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lukas/ROBOT_CORE/my_bot/install/local_setup.zsh'
+[42.489s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lukas/ROBOT_CORE/my_bot/install/setup.zsh'

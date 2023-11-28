@@ -1,0 +1,37 @@
+[15.176s] Invoking command in '/home/lukas/ROBOT_CORE/my_bot/src/motor_ctrl': PYTHONPATH=/home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/prefix_override:/home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/motor_ctrl build --build-base /home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/build install --record /home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/install.log --install-scripts $base/lib/motor_ctrl --single-version-externally-managed
+[18.331s] running egg_info
+[18.338s] creating ../build/motor_ctrl/motor_ctrl.egg-info
+[18.340s] writing ../build/motor_ctrl/motor_ctrl.egg-info/PKG-INFO
+[18.344s] writing dependency_links to ../build/motor_ctrl/motor_ctrl.egg-info/dependency_links.txt
+[18.346s] writing entry points to ../build/motor_ctrl/motor_ctrl.egg-info/entry_points.txt
+[18.348s] writing requirements to ../build/motor_ctrl/motor_ctrl.egg-info/requires.txt
+[18.350s] writing top-level names to ../build/motor_ctrl/motor_ctrl.egg-info/top_level.txt
+[18.381s] writing manifest file '../build/motor_ctrl/motor_ctrl.egg-info/SOURCES.txt'
+[18.983s] reading manifest file '../build/motor_ctrl/motor_ctrl.egg-info/SOURCES.txt'
+[18.996s] writing manifest file '../build/motor_ctrl/motor_ctrl.egg-info/SOURCES.txt'
+[18.998s] running build
+[19.001s] running build_py
+[19.003s] creating /home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/build
+[19.005s] creating /home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/build/lib
+[19.007s] creating /home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/build/lib/motor_ctrl
+[19.009s] copying motor_ctrl/motor_control_node.py -> /home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/build/lib/motor_ctrl
+[19.011s] copying motor_ctrl/__init__.py -> /home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/build/lib/motor_ctrl
+[19.013s] running install
+[19.020s] running install_lib
+[19.033s] creating /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/lib/python3.8/site-packages/motor_ctrl
+[19.035s] copying /home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/build/lib/motor_ctrl/motor_control_node.py -> /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/lib/python3.8/site-packages/motor_ctrl
+[19.037s] copying /home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/build/lib/motor_ctrl/__init__.py -> /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/lib/python3.8/site-packages/motor_ctrl
+[19.044s] byte-compiling /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/lib/python3.8/site-packages/motor_ctrl/motor_control_node.py to motor_control_node.cpython-38.pyc
+[19.070s] byte-compiling /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/lib/python3.8/site-packages/motor_ctrl/__init__.py to __init__.cpython-38.pyc
+[19.073s] running install_data
+[19.080s] creating /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/share/ament_index
+[19.082s] creating /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/share/ament_index/resource_index
+[19.084s] creating /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/share/ament_index/resource_index/packages
+[19.086s] copying resource/motor_ctrl -> /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/share/ament_index/resource_index/packages
+[19.088s] copying package.xml -> /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/share/motor_ctrl
+[19.090s] running install_egg_info
+[19.108s] Copying ../build/motor_ctrl/motor_ctrl.egg-info to /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/lib/python3.8/site-packages/motor_ctrl-0.0.0-py3.8.egg-info
+[19.126s] running install_scripts
+[19.368s] Installing motorsub script to /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/lib/motor_ctrl
+[19.372s] writing list of installed files to '/home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/install.log'
+[19.667s] Invoked command in '/home/lukas/ROBOT_CORE/my_bot/src/motor_ctrl' returned '0': PYTHONPATH=/home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/prefix_override:/home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/motor_ctrl build --build-base /home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/build install --record /home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/install.log --install-scripts $base/lib/motor_ctrl --single-version-externally-managed

@@ -1,0 +1,6 @@
+Invoking command in '/home/lukas/ROBOT_CORE/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/lukas/ROBOT_CORE/my_bot -DCMAKE_INSTALL_PREFIX=/home/lukas/ROBOT_CORE/my_bot/install/my_bot
+Invoked command in '/home/lukas/ROBOT_CORE/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/lukas/ROBOT_CORE/my_bot -DCMAKE_INSTALL_PREFIX=/home/lukas/ROBOT_CORE/my_bot/install/my_bot
+Invoking command in '/home/lukas/ROBOT_CORE/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lukas/ROBOT_CORE/my_bot/build/my_bot -- -j4 -l4
+Invoked command in '/home/lukas/ROBOT_CORE/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lukas/ROBOT_CORE/my_bot/build/my_bot -- -j4 -l4
+Invoking command in '/home/lukas/ROBOT_CORE/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/lukas/ROBOT_CORE/my_bot/build/my_bot
+Invoked command in '/home/lukas/ROBOT_CORE/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/lukas/ROBOT_CORE/my_bot/build/my_bot

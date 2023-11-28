@@ -1,0 +1,51 @@
+[2.995s] Invoking command in '/home/lukas/ROBOT_CORE/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lukas/ROBOT_CORE/my_bot/build/my_bot -- -j4 -l4
+[3.823s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.175s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.848s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.030s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[8.110s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.829s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.831s] -- Configured cppcheck include dirs: 
+[9.833s] -- Configured cppcheck exclude dirs and/or files: 
+[11.377s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.379s] -- Configured cpplint exclude dirs and/or files: 
+[11.577s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.971s] -- Added test 'lint_cmake' to check CMake code style
+[12.173s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[13.732s] -- Added test 'uncrustify' to check C / C++ code style
+[13.733s] -- Configured uncrustify additional arguments: 
+[13.936s] -- Added test 'xmllint' to check XML markup files
+[13.981s] -- Configuring done
+[14.038s] -- Generating done
+[14.058s] -- Build files have been written to: /home/lukas/ROBOT_CORE/my_bot/build/my_bot
+[14.342s] Invoked command in '/home/lukas/ROBOT_CORE/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lukas/ROBOT_CORE/my_bot/build/my_bot -- -j4 -l4
+[14.745s] Invoking command in '/home/lukas/ROBOT_CORE/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/lukas/ROBOT_CORE/my_bot/build/my_bot
+[14.854s] -- Install configuration: ""
+[14.861s] -- Execute custom install script
+[14.870s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/config/empty.yaml
+[14.872s] -- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/config/joystick.yaml
+[14.985s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/description/colors.xacro
+[14.988s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[14.992s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/description/inertia_macros.xacro
+[14.995s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[14.999s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/description/robot_core.xacro
+[15.005s] -- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/launch/joystick.launch.py
+[15.115s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[15.118s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/launch/rsp.launch.py
+[15.125s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/worlds/empty.world
+[15.131s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[15.137s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[15.143s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[15.148s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[15.153s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/environment/path.sh
+[15.158s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/environment/path.dsv
+[15.163s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/local_setup.bash
+[15.168s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/local_setup.sh
+[15.174s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/local_setup.zsh
+[15.179s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/local_setup.dsv
+[15.182s] -- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/package.dsv
+[15.294s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[15.299s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[15.303s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[15.307s] -- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/package.xml
+[15.327s] Invoked command in '/home/lukas/ROBOT_CORE/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/lukas/ROBOT_CORE/my_bot/build/my_bot

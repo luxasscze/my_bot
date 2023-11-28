@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/motor_ctrl/motor_ctrl.egg-info
+writing ../build/motor_ctrl/motor_ctrl.egg-info/PKG-INFO
+writing dependency_links to ../build/motor_ctrl/motor_ctrl.egg-info/dependency_links.txt
+writing entry points to ../build/motor_ctrl/motor_ctrl.egg-info/entry_points.txt
+writing requirements to ../build/motor_ctrl/motor_ctrl.egg-info/requires.txt
+writing top-level names to ../build/motor_ctrl/motor_ctrl.egg-info/top_level.txt
+writing manifest file '../build/motor_ctrl/motor_ctrl.egg-info/SOURCES.txt'
+reading manifest file '../build/motor_ctrl/motor_ctrl.egg-info/SOURCES.txt'
+writing manifest file '../build/motor_ctrl/motor_ctrl.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/build
+creating /home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/build/lib
+creating /home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/build/lib/motor_ctrl
+copying motor_ctrl/motor_control_node.py -> /home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/build/lib/motor_ctrl
+copying motor_ctrl/__init__.py -> /home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/build/lib/motor_ctrl
+running install
+running install_lib
+creating /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/lib/python3.8/site-packages/motor_ctrl
+copying /home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/build/lib/motor_ctrl/motor_control_node.py -> /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/lib/python3.8/site-packages/motor_ctrl
+copying /home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/build/lib/motor_ctrl/__init__.py -> /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/lib/python3.8/site-packages/motor_ctrl
+byte-compiling /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/lib/python3.8/site-packages/motor_ctrl/motor_control_node.py to motor_control_node.cpython-38.pyc
+byte-compiling /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/lib/python3.8/site-packages/motor_ctrl/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/share/ament_index
+creating /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/share/ament_index/resource_index
+creating /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/share/ament_index/resource_index/packages
+copying resource/motor_ctrl -> /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/share/ament_index/resource_index/packages
+copying package.xml -> /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/share/motor_ctrl
+running install_egg_info
+Copying ../build/motor_ctrl/motor_ctrl.egg-info to /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/lib/python3.8/site-packages/motor_ctrl-0.0.0-py3.8.egg-info
+running install_scripts
+Installing motorsub script to /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/lib/motor_ctrl
+writing list of installed files to '/home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/install.log'

@@ -1,0 +1,296 @@
+[0.000000] (-) TimerEvent: {}
+[0.002927] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.006308] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.099452] (-) TimerEvent: {}
+[0.202029] (-) TimerEvent: {}
+[0.304257] (-) TimerEvent: {}
+[0.414537] (-) TimerEvent: {}
+[0.522706] (-) TimerEvent: {}
+[0.631553] (-) TimerEvent: {}
+[0.734332] (-) TimerEvent: {}
+[0.841639] (-) TimerEvent: {}
+[0.948604] (-) TimerEvent: {}
+[1.057944] (-) TimerEvent: {}
+[1.169328] (-) TimerEvent: {}
+[1.283458] (-) TimerEvent: {}
+[1.388435] (-) TimerEvent: {}
+[1.497352] (-) TimerEvent: {}
+[1.605814] (-) TimerEvent: {}
+[1.709767] (-) TimerEvent: {}
+[1.811480] (-) TimerEvent: {}
+[1.916709] (-) TimerEvent: {}
+[2.026295] (-) TimerEvent: {}
+[2.134803] (-) TimerEvent: {}
+[2.287723] (-) TimerEvent: {}
+[2.397029] (-) TimerEvent: {}
+[2.509047] (-) TimerEvent: {}
+[2.616257] (-) TimerEvent: {}
+[2.721922] (-) TimerEvent: {}
+[2.829759] (-) TimerEvent: {}
+[2.934449] (-) TimerEvent: {}
+[2.975684] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[2.987462] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '/home/lukas/ROBOT_CORE/my_bot', '-DCMAKE_INSTALL_PREFIX=/home/lukas/ROBOT_CORE/my_bot/install/my_bot'], 'cwd': '/home/lukas/ROBOT_CORE/my_bot/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lukas'), ('SSH_CLIENT', '192.168.126.90 36746 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lukas'), ('OLDPWD', '/home/lukas/ROBOT_CORE/my_bot/scripts'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/lukas/ROBOT_CORE/my_bot/install:/home/lukas/ROBOT_CORE/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lukas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '123'), ('AMENT_PREFIX_PATH', '/home/lukas/ROBOT_CORE/my_bot/install/my_bot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/lukas/ROBOT_CORE/my_bot/build/my_bot'), ('SSH_CONNECTION', '192.168.126.90 36746 192.168.126.120 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lukas/ROBOT_CORE/my_bot/install/my_bot:/opt/ros/foxy')]), 'shell': False}
+[3.034924] (-) TimerEvent: {}
+[3.143222] (-) TimerEvent: {}
+[3.211380] (my_bot) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[3.243501] (-) TimerEvent: {}
+[3.345324] (-) TimerEvent: {}
+[3.447340] (-) TimerEvent: {}
+[3.536588] (my_bot) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.547695] (-) TimerEvent: {}
+[3.649562] (-) TimerEvent: {}
+[3.751419] (-) TimerEvent: {}
+[3.853198] (-) TimerEvent: {}
+[3.955156] (-) TimerEvent: {}
+[4.056916] (-) TimerEvent: {}
+[4.158766] (-) TimerEvent: {}
+[4.260722] (-) TimerEvent: {}
+[4.362501] (-) TimerEvent: {}
+[4.464305] (-) TimerEvent: {}
+[4.566166] (-) TimerEvent: {}
+[4.668029] (-) TimerEvent: {}
+[4.769720] (-) TimerEvent: {}
+[4.871445] (-) TimerEvent: {}
+[4.973257] (-) TimerEvent: {}
+[5.075136] (-) TimerEvent: {}
+[5.176891] (-) TimerEvent: {}
+[5.278750] (-) TimerEvent: {}
+[5.380573] (-) TimerEvent: {}
+[5.482408] (-) TimerEvent: {}
+[5.584284] (-) TimerEvent: {}
+[5.686071] (-) TimerEvent: {}
+[5.788070] (-) TimerEvent: {}
+[5.889926] (-) TimerEvent: {}
+[5.991703] (-) TimerEvent: {}
+[6.093676] (-) TimerEvent: {}
+[6.186241] (my_bot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[6.193953] (-) TimerEvent: {}
+[6.295802] (-) TimerEvent: {}
+[6.303684] (my_bot) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[6.396132] (-) TimerEvent: {}
+[6.497937] (-) TimerEvent: {}
+[6.500887] (my_bot) StderrLine: {'line': b'CMake Warning at /opt/ros/foxy/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):\n'}
+[6.503842] (my_bot) StderrLine: {'line': b"  Package 'rcutils' exports library 'dl' which couldn't be found\n"}
+[6.505437] (my_bot) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.506875] (my_bot) StderrLine: {'line': b'  /opt/ros/foxy/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[6.508560] (my_bot) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[6.510080] (my_bot) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[6.511701] (my_bot) StderrLine: {'line': b'  /opt/ros/foxy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[6.513169] (my_bot) StderrLine: {'line': b'  /opt/ros/foxy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[6.514698] (my_bot) StderrLine: {'line': b'  /opt/ros/foxy/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[6.516476] (my_bot) StderrLine: {'line': b'  /opt/ros/foxy/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)\n'}
+[6.518061] (my_bot) StderrLine: {'line': b'  /opt/ros/foxy/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[6.519743] (my_bot) StderrLine: {'line': b'  /opt/ros/foxy/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)\n'}
+[6.521338] (my_bot) StderrLine: {'line': b'  CMakeLists.txt:20 (find_package)\n'}
+[6.522849] (my_bot) StderrLine: {'line': b'\n'}
+[6.524551] (my_bot) StderrLine: {'line': b'\n'}
+[6.598321] (-) TimerEvent: {}
+[6.647549] (my_bot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.698663] (-) TimerEvent: {}
+[6.706260] (my_bot) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[6.799027] (-) TimerEvent: {}
+[6.900842] (-) TimerEvent: {}
+[7.002683] (-) TimerEvent: {}
+[7.104458] (-) TimerEvent: {}
+[7.206364] (-) TimerEvent: {}
+[7.308284] (-) TimerEvent: {}
+[7.410215] (-) TimerEvent: {}
+[7.512058] (-) TimerEvent: {}
+[7.614048] (-) TimerEvent: {}
+[7.715950] (-) TimerEvent: {}
+[7.817841] (-) TimerEvent: {}
+[7.919702] (-) TimerEvent: {}
+[8.021543] (-) TimerEvent: {}
+[8.112711] (my_bot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.121860] (-) TimerEvent: {}
+[8.223691] (-) TimerEvent: {}
+[8.325546] (-) TimerEvent: {}
+[8.427431] (-) TimerEvent: {}
+[8.529218] (-) TimerEvent: {}
+[8.631191] (-) TimerEvent: {}
+[8.732992] (-) TimerEvent: {}
+[8.834877] (-) TimerEvent: {}
+[8.936802] (-) TimerEvent: {}
+[9.038660] (-) TimerEvent: {}
+[9.140480] (-) TimerEvent: {}
+[9.242384] (-) TimerEvent: {}
+[9.344371] (-) TimerEvent: {}
+[9.446241] (-) TimerEvent: {}
+[9.542857] (my_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[9.546511] (-) TimerEvent: {}
+[9.648374] (-) TimerEvent: {}
+[9.750211] (-) TimerEvent: {}
+[9.852059] (-) TimerEvent: {}
+[9.953955] (-) TimerEvent: {}
+[10.055918] (-) TimerEvent: {}
+[10.157656] (-) TimerEvent: {}
+[10.259514] (-) TimerEvent: {}
+[10.361401] (-) TimerEvent: {}
+[10.463434] (-) TimerEvent: {}
+[10.554440] (my_bot) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[10.563726] (-) TimerEvent: {}
+[10.665804] (-) TimerEvent: {}
+[10.767713] (-) TimerEvent: {}
+[10.869492] (-) TimerEvent: {}
+[10.971312] (-) TimerEvent: {}
+[11.073028] (-) TimerEvent: {}
+[11.174761] (-) TimerEvent: {}
+[11.276589] (-) TimerEvent: {}
+[11.378429] (-) TimerEvent: {}
+[11.480240] (-) TimerEvent: {}
+[11.581981] (-) TimerEvent: {}
+[11.683758] (-) TimerEvent: {}
+[11.785537] (-) TimerEvent: {}
+[11.887344] (-) TimerEvent: {}
+[11.989039] (-) TimerEvent: {}
+[12.090848] (-) TimerEvent: {}
+[12.170057] (my_bot) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[12.172399] (my_bot) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[12.174352] (my_bot) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[12.191209] (-) TimerEvent: {}
+[12.292880] (-) TimerEvent: {}
+[12.394611] (-) TimerEvent: {}
+[12.496408] (-) TimerEvent: {}
+[12.598132] (-) TimerEvent: {}
+[12.699955] (-) TimerEvent: {}
+[12.801700] (-) TimerEvent: {}
+[12.903428] (-) TimerEvent: {}
+[13.005192] (-) TimerEvent: {}
+[13.106932] (-) TimerEvent: {}
+[13.208718] (-) TimerEvent: {}
+[13.310466] (-) TimerEvent: {}
+[13.412233] (-) TimerEvent: {}
+[13.513975] (-) TimerEvent: {}
+[13.615725] (-) TimerEvent: {}
+[13.717433] (-) TimerEvent: {}
+[13.785191] (my_bot) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[13.787389] (my_bot) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[13.817791] (-) TimerEvent: {}
+[13.919621] (-) TimerEvent: {}
+[13.992728] (my_bot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[14.019910] (-) TimerEvent: {}
+[14.121628] (-) TimerEvent: {}
+[14.223391] (-) TimerEvent: {}
+[14.325125] (-) TimerEvent: {}
+[14.399423] (my_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[14.425431] (-) TimerEvent: {}
+[14.527246] (-) TimerEvent: {}
+[14.605969] (my_bot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[14.627551] (-) TimerEvent: {}
+[14.729299] (-) TimerEvent: {}
+[14.831174] (-) TimerEvent: {}
+[14.932932] (-) TimerEvent: {}
+[15.034725] (-) TimerEvent: {}
+[15.136498] (-) TimerEvent: {}
+[15.238286] (-) TimerEvent: {}
+[15.340099] (-) TimerEvent: {}
+[15.441945] (-) TimerEvent: {}
+[15.543772] (-) TimerEvent: {}
+[15.645604] (-) TimerEvent: {}
+[15.747446] (-) TimerEvent: {}
+[15.849174] (-) TimerEvent: {}
+[15.950937] (-) TimerEvent: {}
+[16.052726] (-) TimerEvent: {}
+[16.154462] (-) TimerEvent: {}
+[16.218646] (my_bot) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[16.220812] (my_bot) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[16.254768] (-) TimerEvent: {}
+[16.356546] (-) TimerEvent: {}
+[16.424937] (my_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[16.456893] (-) TimerEvent: {}
+[16.485339] (my_bot) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.526238] (my_bot) StdoutLine: {'line': b'-- Generating done\n'}
+[16.551031] (my_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/lukas/ROBOT_CORE/my_bot/build/my_bot\n'}
+[16.557265] (-) TimerEvent: {}
+[16.602591] (my_bot) CommandEnded: {'returncode': 0}
+[16.609785] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[16.620672] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lukas/ROBOT_CORE/my_bot/build/my_bot', '--', '-j4', '-l4'], 'cwd': '/home/lukas/ROBOT_CORE/my_bot/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lukas'), ('SSH_CLIENT', '192.168.126.90 36746 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lukas'), ('OLDPWD', '/home/lukas/ROBOT_CORE/my_bot/scripts'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/lukas/ROBOT_CORE/my_bot/install:/home/lukas/ROBOT_CORE/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lukas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '123'), ('AMENT_PREFIX_PATH', '/home/lukas/ROBOT_CORE/my_bot/install/my_bot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/lukas/ROBOT_CORE/my_bot/build/my_bot'), ('SSH_CONNECTION', '192.168.126.90 36746 192.168.126.120 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lukas/ROBOT_CORE/my_bot/install/my_bot:/opt/ros/foxy')]), 'shell': False}
+[16.657782] (-) TimerEvent: {}
+[16.760007] (-) TimerEvent: {}
+[16.861804] (-) TimerEvent: {}
+[16.963774] (-) TimerEvent: {}
+[17.065628] (-) TimerEvent: {}
+[17.143954] (my_bot) CommandEnded: {'returncode': 0}
+[17.166289] (-) TimerEvent: {}
+[17.269090] (-) TimerEvent: {}
+[17.370944] (-) TimerEvent: {}
+[17.420480] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[17.471680] (-) TimerEvent: {}
+[17.543110] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lukas/ROBOT_CORE/my_bot/build/my_bot'], 'cwd': '/home/lukas/ROBOT_CORE/my_bot/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lukas'), ('SSH_CLIENT', '192.168.126.90 36746 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lukas'), ('OLDPWD', '/home/lukas/ROBOT_CORE/my_bot/scripts'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/lukas/ROBOT_CORE/my_bot/install:/home/lukas/ROBOT_CORE/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lukas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '123'), ('AMENT_PREFIX_PATH', '/home/lukas/ROBOT_CORE/my_bot/install/my_bot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/lukas/ROBOT_CORE/my_bot/build/my_bot'), ('SSH_CONNECTION', '192.168.126.90 36746 192.168.126.120 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lukas/ROBOT_CORE/my_bot/install/my_bot:/opt/ros/foxy')]), 'shell': False}
+[17.572057] (-) TimerEvent: {}
+[17.662943] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.669595] (my_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[17.672184] (-) TimerEvent: {}
+[17.678281] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[17.681767] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/config/joystick.yaml\n'}
+[17.689088] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/description/colors.xacro\n'}
+[17.692600] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/description/gazebo_control.xacro\n'}
+[17.696193] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/description/inertia_macros.xacro\n'}
+[17.699712] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[17.703419] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[17.710158] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/launch/joystick.launch.py\n'}
+[17.713588] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/launch/launch_sim.launch.py\n'}
+[17.717090] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[17.723549] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[17.729579] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[17.735574] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[17.740986] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[17.746168] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[17.751582] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/environment/path.sh\n'}
+[17.756770] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[17.761959] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/local_setup.bash\n'}
+[17.767142] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/local_setup.sh\n'}
+[17.772272] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[17.774059] (-) TimerEvent: {}
+[17.777537] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[17.781435] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/package.dsv\n'}
+[17.874469] (-) TimerEvent: {}
+[17.892693] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[17.897783] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[17.901500] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[17.906452] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lukas/ROBOT_CORE/my_bot/install/my_bot/share/my_bot/package.xml\n'}
+[17.924864] (my_bot) CommandEnded: {'returncode': 0}
+[17.977247] (-) TimerEvent: {}
+[18.079143] (-) TimerEvent: {}
+[18.182534] (-) TimerEvent: {}
+[18.284912] (-) TimerEvent: {}
+[18.390219] (-) TimerEvent: {}
+[18.495681] (-) TimerEvent: {}
+[18.599837] (-) TimerEvent: {}
+[18.702393] (-) TimerEvent: {}
+[18.807370] (-) TimerEvent: {}
+[18.910029] (-) TimerEvent: {}
+[19.020533] (-) TimerEvent: {}
+[19.126502] (-) TimerEvent: {}
+[19.232303] (-) TimerEvent: {}
+[19.334597] (-) TimerEvent: {}
+[19.437831] (-) TimerEvent: {}
+[19.546426] (-) TimerEvent: {}
+[19.656443] (-) TimerEvent: {}
+[19.759806] (-) TimerEvent: {}
+[19.863722] (-) TimerEvent: {}
+[19.965766] (-) TimerEvent: {}
+[20.071404] (-) TimerEvent: {}
+[20.175261] (-) TimerEvent: {}
+[20.282236] (-) TimerEvent: {}
+[20.391688] (-) TimerEvent: {}
+[20.502599] (-) TimerEvent: {}
+[20.606656] (-) TimerEvent: {}
+[20.710898] (-) TimerEvent: {}
+[20.815594] (-) TimerEvent: {}
+[20.924232] (-) TimerEvent: {}
+[21.026809] (-) TimerEvent: {}
+[21.131474] (-) TimerEvent: {}
+[21.235447] (-) TimerEvent: {}
+[21.337894] (-) TimerEvent: {}
+[21.440838] (-) TimerEvent: {}
+[21.548565] (-) TimerEvent: {}
+[21.656494] (-) TimerEvent: {}
+[21.768941] (-) TimerEvent: {}
+[21.877415] (-) TimerEvent: {}
+[21.980437] (-) TimerEvent: {}
+[22.086829] (-) TimerEvent: {}
+[22.195250] (-) TimerEvent: {}
+[22.297337] (-) TimerEvent: {}
+[22.317155] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[22.327739] (-) EventReactorShutdown: {}

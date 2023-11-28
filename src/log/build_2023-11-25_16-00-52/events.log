@@ -1,0 +1,249 @@
+[0.000000] (-) TimerEvent: {}
+[0.003227] (motor_ctrl) JobQueued: {'identifier': 'motor_ctrl', 'dependencies': OrderedDict()}
+[0.007136] (motor_ctrl) JobStarted: {'identifier': 'motor_ctrl'}
+[0.099224] (-) TimerEvent: {}
+[0.201091] (-) TimerEvent: {}
+[0.303786] (-) TimerEvent: {}
+[0.413473] (-) TimerEvent: {}
+[0.526042] (-) TimerEvent: {}
+[0.627895] (-) TimerEvent: {}
+[0.729795] (-) TimerEvent: {}
+[0.834699] (-) TimerEvent: {}
+[0.942704] (-) TimerEvent: {}
+[1.051134] (-) TimerEvent: {}
+[1.156179] (-) TimerEvent: {}
+[1.259121] (-) TimerEvent: {}
+[1.364282] (-) TimerEvent: {}
+[1.469703] (-) TimerEvent: {}
+[1.577308] (-) TimerEvent: {}
+[1.687410] (-) TimerEvent: {}
+[1.789397] (-) TimerEvent: {}
+[1.894427] (-) TimerEvent: {}
+[2.006133] (-) TimerEvent: {}
+[2.117848] (-) TimerEvent: {}
+[2.296315] (-) TimerEvent: {}
+[2.405843] (-) TimerEvent: {}
+[2.515590] (-) TimerEvent: {}
+[2.623080] (-) TimerEvent: {}
+[2.730118] (-) TimerEvent: {}
+[2.837119] (-) TimerEvent: {}
+[2.948225] (-) TimerEvent: {}
+[3.056220] (-) TimerEvent: {}
+[3.163129] (-) TimerEvent: {}
+[3.266785] (-) TimerEvent: {}
+[3.378188] (-) TimerEvent: {}
+[3.488169] (-) TimerEvent: {}
+[3.593102] (-) TimerEvent: {}
+[3.695435] (-) TimerEvent: {}
+[3.797220] (-) TimerEvent: {}
+[3.899054] (-) TimerEvent: {}
+[4.000706] (-) TimerEvent: {}
+[4.102426] (-) TimerEvent: {}
+[4.204109] (-) TimerEvent: {}
+[4.306032] (-) TimerEvent: {}
+[4.407780] (-) TimerEvent: {}
+[4.509538] (-) TimerEvent: {}
+[4.611284] (-) TimerEvent: {}
+[4.713031] (-) TimerEvent: {}
+[4.814857] (-) TimerEvent: {}
+[4.916594] (-) TimerEvent: {}
+[5.018380] (-) TimerEvent: {}
+[5.120105] (-) TimerEvent: {}
+[5.222059] (-) TimerEvent: {}
+[5.323818] (-) TimerEvent: {}
+[5.425670] (-) TimerEvent: {}
+[5.527425] (-) TimerEvent: {}
+[5.629266] (-) TimerEvent: {}
+[5.731102] (-) TimerEvent: {}
+[5.832915] (-) TimerEvent: {}
+[5.934756] (-) TimerEvent: {}
+[6.036435] (-) TimerEvent: {}
+[6.138215] (-) TimerEvent: {}
+[6.239945] (-) TimerEvent: {}
+[6.341931] (-) TimerEvent: {}
+[6.444066] (-) TimerEvent: {}
+[6.545795] (-) TimerEvent: {}
+[6.647743] (-) TimerEvent: {}
+[6.749809] (-) TimerEvent: {}
+[6.854412] (-) TimerEvent: {}
+[6.962180] (-) TimerEvent: {}
+[7.067185] (-) TimerEvent: {}
+[7.177156] (-) TimerEvent: {}
+[7.282587] (-) TimerEvent: {}
+[7.388209] (-) TimerEvent: {}
+[7.490648] (-) TimerEvent: {}
+[7.597488] (-) TimerEvent: {}
+[7.704271] (-) TimerEvent: {}
+[7.814849] (-) TimerEvent: {}
+[7.926149] (-) TimerEvent: {}
+[8.036054] (-) TimerEvent: {}
+[8.141106] (-) TimerEvent: {}
+[8.250102] (-) TimerEvent: {}
+[8.357789] (-) TimerEvent: {}
+[8.459937] (-) TimerEvent: {}
+[8.564311] (-) TimerEvent: {}
+[8.667861] (-) TimerEvent: {}
+[8.772527] (-) TimerEvent: {}
+[8.878409] (-) TimerEvent: {}
+[8.982910] (-) TimerEvent: {}
+[9.084982] (-) TimerEvent: {}
+[9.188003] (-) TimerEvent: {}
+[9.296381] (-) TimerEvent: {}
+[9.404950] (-) TimerEvent: {}
+[9.508285] (-) TimerEvent: {}
+[9.614705] (-) TimerEvent: {}
+[9.719118] (-) TimerEvent: {}
+[9.820968] (-) TimerEvent: {}
+[9.922848] (-) TimerEvent: {}
+[10.024609] (-) TimerEvent: {}
+[10.126401] (-) TimerEvent: {}
+[10.228090] (-) TimerEvent: {}
+[10.329990] (-) TimerEvent: {}
+[10.431817] (-) TimerEvent: {}
+[10.533607] (-) TimerEvent: {}
+[10.635431] (-) TimerEvent: {}
+[10.737120] (-) TimerEvent: {}
+[10.838862] (-) TimerEvent: {}
+[10.940606] (-) TimerEvent: {}
+[11.042521] (-) TimerEvent: {}
+[11.144212] (-) TimerEvent: {}
+[11.246151] (-) TimerEvent: {}
+[11.347873] (-) TimerEvent: {}
+[11.449694] (-) TimerEvent: {}
+[11.551512] (-) TimerEvent: {}
+[11.653274] (-) TimerEvent: {}
+[11.755088] (-) TimerEvent: {}
+[11.856915] (-) TimerEvent: {}
+[11.958823] (-) TimerEvent: {}
+[12.060643] (-) TimerEvent: {}
+[12.162427] (-) TimerEvent: {}
+[12.264085] (-) TimerEvent: {}
+[12.365718] (-) TimerEvent: {}
+[12.467483] (-) TimerEvent: {}
+[12.569307] (-) TimerEvent: {}
+[12.671141] (-) TimerEvent: {}
+[12.773086] (-) TimerEvent: {}
+[12.875115] (-) TimerEvent: {}
+[12.976883] (-) TimerEvent: {}
+[13.078743] (-) TimerEvent: {}
+[13.180517] (-) TimerEvent: {}
+[13.282387] (-) TimerEvent: {}
+[13.384269] (-) TimerEvent: {}
+[13.486053] (-) TimerEvent: {}
+[13.587714] (-) TimerEvent: {}
+[13.689636] (-) TimerEvent: {}
+[13.791642] (-) TimerEvent: {}
+[13.893362] (-) TimerEvent: {}
+[13.995160] (-) TimerEvent: {}
+[14.096991] (-) TimerEvent: {}
+[14.198869] (-) TimerEvent: {}
+[14.300883] (-) TimerEvent: {}
+[14.402752] (-) TimerEvent: {}
+[14.504542] (-) TimerEvent: {}
+[14.606370] (-) TimerEvent: {}
+[14.708176] (-) TimerEvent: {}
+[14.810059] (-) TimerEvent: {}
+[14.912046] (-) TimerEvent: {}
+[15.014127] (-) TimerEvent: {}
+[15.116019] (-) TimerEvent: {}
+[15.172596] (motor_ctrl) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/motor_ctrl', 'build', '--build-base', '/home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/build', 'install', '--record', '/home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/install.log', '--install-scripts', '$base/lib/motor_ctrl', '--single-version-externally-managed'], 'cwd': '/home/lukas/ROBOT_CORE/my_bot/src/motor_ctrl', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lukas', 'SSH_CLIENT': '192.168.126.90 56102 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/lukas', 'OLDPWD': '/home/lukas/ROBOT_CORE/my_bot', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/lukas/ROBOT_CORE/my_bot/install:/home/lukas/ROBOT_CORE/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'lukas', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '123', 'AMENT_PREFIX_PATH': '/home/lukas/ROBOT_CORE/my_bot/install/my_bot:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl', 'SSH_CONNECTION': '192.168.126.90 56102 192.168.126.120 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/prefix_override:/home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/lukas/ROBOT_CORE/my_bot/install/my_bot'}, 'shell': False}
+[15.216711] (-) TimerEvent: {}
+[15.319288] (-) TimerEvent: {}
+[15.421286] (-) TimerEvent: {}
+[15.523158] (-) TimerEvent: {}
+[15.624876] (-) TimerEvent: {}
+[15.726645] (-) TimerEvent: {}
+[15.828379] (-) TimerEvent: {}
+[15.930092] (-) TimerEvent: {}
+[16.031821] (-) TimerEvent: {}
+[16.133736] (-) TimerEvent: {}
+[16.235662] (-) TimerEvent: {}
+[16.337480] (-) TimerEvent: {}
+[16.439335] (-) TimerEvent: {}
+[16.541129] (-) TimerEvent: {}
+[16.642922] (-) TimerEvent: {}
+[16.744701] (-) TimerEvent: {}
+[16.846499] (-) TimerEvent: {}
+[16.948245] (-) TimerEvent: {}
+[17.050188] (-) TimerEvent: {}
+[17.152037] (-) TimerEvent: {}
+[17.253791] (-) TimerEvent: {}
+[17.355625] (-) TimerEvent: {}
+[17.457433] (-) TimerEvent: {}
+[17.559185] (-) TimerEvent: {}
+[17.660956] (-) TimerEvent: {}
+[17.762757] (-) TimerEvent: {}
+[17.864626] (-) TimerEvent: {}
+[17.966456] (-) TimerEvent: {}
+[18.068153] (-) TimerEvent: {}
+[18.169990] (-) TimerEvent: {}
+[18.271710] (-) TimerEvent: {}
+[18.338495] (motor_ctrl) StdoutLine: {'line': b'running egg_info\n'}
+[18.346107] (motor_ctrl) StdoutLine: {'line': b'creating ../build/motor_ctrl/motor_ctrl.egg-info\n'}
+[18.348236] (motor_ctrl) StdoutLine: {'line': b'writing ../build/motor_ctrl/motor_ctrl.egg-info/PKG-INFO\n'}
+[18.351564] (motor_ctrl) StdoutLine: {'line': b'writing dependency_links to ../build/motor_ctrl/motor_ctrl.egg-info/dependency_links.txt\n'}
+[18.353807] (motor_ctrl) StdoutLine: {'line': b'writing entry points to ../build/motor_ctrl/motor_ctrl.egg-info/entry_points.txt\n'}
+[18.356020] (motor_ctrl) StdoutLine: {'line': b'writing requirements to ../build/motor_ctrl/motor_ctrl.egg-info/requires.txt\n'}
+[18.358181] (motor_ctrl) StdoutLine: {'line': b'writing top-level names to ../build/motor_ctrl/motor_ctrl.egg-info/top_level.txt\n'}
+[18.372049] (-) TimerEvent: {}
+[18.388925] (motor_ctrl) StdoutLine: {'line': b"writing manifest file '../build/motor_ctrl/motor_ctrl.egg-info/SOURCES.txt'\n"}
+[18.472441] (-) TimerEvent: {}
+[18.574161] (-) TimerEvent: {}
+[18.675834] (-) TimerEvent: {}
+[18.777641] (-) TimerEvent: {}
+[18.879414] (-) TimerEvent: {}
+[18.981162] (-) TimerEvent: {}
+[18.991211] (motor_ctrl) StdoutLine: {'line': b"reading manifest file '../build/motor_ctrl/motor_ctrl.egg-info/SOURCES.txt'\n"}
+[19.003874] (motor_ctrl) StdoutLine: {'line': b"writing manifest file '../build/motor_ctrl/motor_ctrl.egg-info/SOURCES.txt'\n"}
+[19.006356] (motor_ctrl) StdoutLine: {'line': b'running build\n'}
+[19.008226] (motor_ctrl) StdoutLine: {'line': b'running build_py\n'}
+[19.010876] (motor_ctrl) StdoutLine: {'line': b'creating /home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/build\n'}
+[19.012836] (motor_ctrl) StdoutLine: {'line': b'creating /home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/build/lib\n'}
+[19.015167] (motor_ctrl) StdoutLine: {'line': b'creating /home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/build/lib/motor_ctrl\n'}
+[19.017081] (motor_ctrl) StdoutLine: {'line': b'copying motor_ctrl/motor_control_node.py -> /home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/build/lib/motor_ctrl\n'}
+[19.018951] (motor_ctrl) StdoutLine: {'line': b'copying motor_ctrl/__init__.py -> /home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/build/lib/motor_ctrl\n'}
+[19.020630] (motor_ctrl) StdoutLine: {'line': b'running install\n'}
+[19.027554] (motor_ctrl) StdoutLine: {'line': b'running install_lib\n'}
+[19.040706] (motor_ctrl) StdoutLine: {'line': b'creating /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/lib/python3.8/site-packages/motor_ctrl\n'}
+[19.042982] (motor_ctrl) StdoutLine: {'line': b'copying /home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/build/lib/motor_ctrl/motor_control_node.py -> /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/lib/python3.8/site-packages/motor_ctrl\n'}
+[19.044980] (motor_ctrl) StdoutLine: {'line': b'copying /home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/build/lib/motor_ctrl/__init__.py -> /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/lib/python3.8/site-packages/motor_ctrl\n'}
+[19.052231] (motor_ctrl) StdoutLine: {'line': b'byte-compiling /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/lib/python3.8/site-packages/motor_ctrl/motor_control_node.py to motor_control_node.cpython-38.pyc\n'}
+[19.077597] (motor_ctrl) StdoutLine: {'line': b'byte-compiling /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/lib/python3.8/site-packages/motor_ctrl/__init__.py to __init__.cpython-38.pyc\n'}
+[19.080634] (motor_ctrl) StdoutLine: {'line': b'running install_data\n'}
+[19.082328] (-) TimerEvent: {}
+[19.087245] (motor_ctrl) StdoutLine: {'line': b'creating /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/share/ament_index\n'}
+[19.089746] (motor_ctrl) StdoutLine: {'line': b'creating /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/share/ament_index/resource_index\n'}
+[19.091864] (motor_ctrl) StdoutLine: {'line': b'creating /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/share/ament_index/resource_index/packages\n'}
+[19.093804] (motor_ctrl) StdoutLine: {'line': b'copying resource/motor_ctrl -> /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/share/ament_index/resource_index/packages\n'}
+[19.095864] (motor_ctrl) StdoutLine: {'line': b'copying package.xml -> /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/share/motor_ctrl\n'}
+[19.097483] (motor_ctrl) StdoutLine: {'line': b'running install_egg_info\n'}
+[19.115519] (motor_ctrl) StdoutLine: {'line': b'Copying ../build/motor_ctrl/motor_ctrl.egg-info to /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/lib/python3.8/site-packages/motor_ctrl-0.0.0-py3.8.egg-info\n'}
+[19.133689] (motor_ctrl) StdoutLine: {'line': b'running install_scripts\n'}
+[19.182603] (-) TimerEvent: {}
+[19.284367] (-) TimerEvent: {}
+[19.375527] (motor_ctrl) StdoutLine: {'line': b'Installing motorsub script to /home/lukas/ROBOT_CORE/my_bot/src/install/motor_ctrl/lib/motor_ctrl\n'}
+[19.380030] (motor_ctrl) StdoutLine: {'line': b"writing list of installed files to '/home/lukas/ROBOT_CORE/my_bot/src/build/motor_ctrl/install.log'\n"}
+[19.384936] (-) TimerEvent: {}
+[19.487117] (-) TimerEvent: {}
+[19.589067] (-) TimerEvent: {}
+[19.673916] (motor_ctrl) CommandEnded: {'returncode': 0}
+[19.689252] (-) TimerEvent: {}
+[19.791370] (-) TimerEvent: {}
+[19.895553] (-) TimerEvent: {}
+[20.002141] (-) TimerEvent: {}
+[20.111731] (-) TimerEvent: {}
+[20.218945] (-) TimerEvent: {}
+[20.320545] (-) TimerEvent: {}
+[20.422742] (-) TimerEvent: {}
+[20.527853] (-) TimerEvent: {}
+[20.631949] (-) TimerEvent: {}
+[20.738409] (-) TimerEvent: {}
+[20.840668] (-) TimerEvent: {}
+[20.945986] (-) TimerEvent: {}
+[21.047980] (-) TimerEvent: {}
+[21.153442] (-) TimerEvent: {}
+[21.261780] (-) TimerEvent: {}
+[21.368150] (-) TimerEvent: {}
+[21.470535] (-) TimerEvent: {}
+[21.488369] (motor_ctrl) JobEnded: {'identifier': 'motor_ctrl', 'rc': 0}
+[21.497392] (-) EventReactorShutdown: {}

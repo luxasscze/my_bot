@@ -119,9 +119,10 @@ print("MOVING ROBOT...")
 
 try:
     while 1:
+        selected_quote = random.choice(quotes)
         program_one()
-        speak(random.choice(quotes))
-        
+        speak(selected_quote)
+        print(selected_quote)
 except KeyboardInterrupt:
     pass
 right_backward.stop()

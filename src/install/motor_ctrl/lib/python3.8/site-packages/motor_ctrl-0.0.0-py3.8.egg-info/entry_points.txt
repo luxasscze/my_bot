@@ -1,0 +1,3 @@
+[console_scripts]
+motorsub = motor_ctrl.subscriber_member_function:main
+
